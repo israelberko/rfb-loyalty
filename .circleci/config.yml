@@ -60,6 +60,11 @@ jobs:
               - ~/.m2
               key: v1-dependencies-{{ checksum "build.gradle" }}
 
+         - save_cache:
+             paths:
+               - ~/repo/node_modules
+             key: node-dependency-cache-{{ checksum "node_modules" }}
+
         # run tests and package
         #- run: ./gradlew clean test
         - run:
