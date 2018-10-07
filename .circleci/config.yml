@@ -30,7 +30,7 @@ jobs:
         # Install Node for JH Build
         - run:
               name: Download Node
-              command: curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash
+              command: curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash
         - run:
               name: Install Node
               command: sudo apt-get install -y nodejs
