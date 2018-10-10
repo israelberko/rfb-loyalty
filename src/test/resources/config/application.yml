@@ -108,4 +108,4 @@ jhipster:
  application:
    level:
        com.israelb.service: debug
-       com.israelb.aop.logging;: error
+       com.israelb.aop.logging: error
