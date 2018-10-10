@@ -105,4 +105,7 @@ jhipster:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-# application:
+ application:
+   level:
+       com.israelb.service: debug
+       com.israelb.aop.logging;: error
